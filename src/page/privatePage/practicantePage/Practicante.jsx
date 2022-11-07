@@ -1,4 +1,5 @@
 import React from "react";
+import TecnologiaInformacion from "../../../components/ComponentePaginaPublica/TecnologiaInformacion";
 import NavbarPracticante from "./componentPracticante/NavbarPracticante";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import HomePracticante from "./componentPracticante/HomePracticante";
@@ -22,7 +23,7 @@ function PresentacionUser() {
         <Route path="/formato-f1" element={<div>formato F1</div>}></Route>
         <Route
           path="/tecnologia-informacion"
-          element={<div>Tecnologia de la informacion</div>}
+          element={<TecnologiaInformacion/>}
         ></Route>
         <Route
           path="/sistema-informacion"
